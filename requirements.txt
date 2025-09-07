@@ -1,3 +1,14 @@
+# Web framework
+flask>=2.3
+flask-cors>=3.0
+
+# Telegram bot kutubxonasi
 aiogram==2.25.1
-aiohttp==3.9.5
-requests
+
+# Async kutubxonalar
+aiohttp>=3.8
+aiofiles>=23.1
+
+# Qo‘shimcha kerak bo‘lishi mumkin bo‘lganlari
+pydantic>=1.10
+typing-extensions>=4.7
