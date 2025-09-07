@@ -42,8 +42,8 @@ def update():
 
     users_data[user_id]["coins"] += coins_add * users_data[user_id]["multiplier"]
     users_data[user_id]["progress"] += progress_change
-
     users_data[user_id]["progress"] = max(0, min(users_data[user_id]["progress"], 1000))
+
     return jsonify(users_data[user_id])
 
 @app.route("/leaderboard")
